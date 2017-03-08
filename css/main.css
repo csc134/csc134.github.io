@@ -1,0 +1,77 @@
+
+#load-content {
+  z-index: 10001;
+  background-color: #fff; /* Black w/ opacity */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  position: relative;
+}
+
+#load-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.spinner-layer{
+  border-color: #C2E0FC;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+}
+#headerdetail{
+  text-align: center;
+  background-image: url('/assets/background.jpg');
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.header{
+  top: 0px;
+  position: relative;
+}
+
+.dropdown-content li>a{
+  color: #422B25;
+}
+
+#headername{
+  margin: 0;
+  font-weight: 600;
+  font-size: 56px;
+  padding: 100px;
+}
+
+nav{
+  background-color: #f1f4f7;
+}
+
+nav ul a{
+  color: rgba(0,0,0,0.87);
+}
+
+.hide-on-med-and-down{
+  margin-left: 200px;
+}
+
+.section{
+  background-color: #f1f4f7;
+}
+
+@media only screen and (max-width: 500px) {
+  #headername{
+    font-size: 45px;
+  }
+
+
+  .parallax-container{
+    height: 200px;
+  }
+
+  .material-icons{
+    color: black;
+  }
+}
