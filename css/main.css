@@ -1,3 +1,18 @@
+@font-face{
+  font-family: PenelopeAnne;
+  src: url(/ayu/font/penelope.ttf);
+}
+
+@font-face{
+  font-family: peace;
+  src: url(/ayu/font/peach.ttf);
+}
+
+#flowerimage{
+  position: absolute;
+  top: 50px;
+  margin-left: 30px;
+}
 
 #load-content {
   z-index: 10001;
@@ -20,13 +35,15 @@
 }
 
 html {
-  font-family: "Lato", sans-serif;
+  font-family: peace;
 }
+
 #headerdetail{
+  font-family: PenelopeAnne;
   text-align: center;
   background-image: url('/assets/background.jpg');
   background-repeat: no-repeat;
-  height: 300px;
+  height: 200px;
 }
 
 .header{
@@ -62,8 +79,14 @@ nav ul a{
 }
 
 @media only screen and (max-width: 500px) {
+
+  #flowerimage{
+    margin-left: 10px;
+  }
+
   #headername{
     font-size: 45px;
+    padding-left: 0px;
   }
 
 
