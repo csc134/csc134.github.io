@@ -1,11 +1,11 @@
 @font-face{
   font-family: PenelopeAnne;
-  src: url(/ayu/font/penelope.ttf);
+  src: url(/font/penelope.ttf);
 }
 
 @font-face{
   font-family: peace;
-  src: url(/ayu/font/peach.ttf);
+  src: url(/font/peace.ttf);
 }
 
 #flowerimage{
